@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # Configure Gemini API key
-API_KEY = "AIzaSyA3UJ24-RZ_xAGpC3xsZSr7aEcq8kg4AIU"
+API_KEY = "Enter your key"
 genai.configure(api_key=API_KEY)
 
 # Initialize model and start a chat session (with memory)
